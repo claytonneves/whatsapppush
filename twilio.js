@@ -27,7 +27,7 @@ app.post('/push',(req,res) => {
             body: message,
             from: 'whatsapp:+14155238886',
             to: 'whatsapp:+5511989040106',
-            mediaUrl: 'https://demo.twilio.com/owl.png'
+            //mediaUrl: 'https://demo.twilio.com/owl.png'
             
           })
           .then(message => console.log(message.sid))
